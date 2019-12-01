@@ -1,0 +1,12 @@
+apiVersion: constraints.gatekeeper.sh/v1beta1
+kind: PrivilegedLabels
+metadata:
+  name: egress-access-allowed-priv
+spec:
+  match:
+    kinds:
+      - apiGroups: [""]
+        kinds: ["Pod", "Namespace"]
+  parameters:
+    label: "privilegedresource"
+    users: ["secadmin", "platformadmin"]

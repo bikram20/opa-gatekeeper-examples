@@ -1,0 +1,14 @@
+apiVersion: constraints.gatekeeper.sh/v1beta1
+kind: MandatoryLabels
+metadata:
+  name: requiredlabels-in-org-a
+spec:
+  match:
+    kinds:
+      - apiGroups: [""]
+        kinds: ["Pod", "Namespace"]
+  parameters:
+    labels: 
+      - "zone"
+      - "appid"
+      - "status"

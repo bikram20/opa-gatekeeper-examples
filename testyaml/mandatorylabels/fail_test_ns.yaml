@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: good-ns
+  labels:
+    "zone": "restricted"
+    "appid": "app1234"
