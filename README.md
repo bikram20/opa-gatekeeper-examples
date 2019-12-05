@@ -28,8 +28,8 @@ Then apply one constraint (in the constraints folder) at a time and test the adm
 
 ## TBD
 
-Calico Policy attributes enforcement
-Calico Policy order constraints for different users
+- Calico Policy attributes enforcement
+- Calico Policy order constraints for different users
 
  
 ## References
