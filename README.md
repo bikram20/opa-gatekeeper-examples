@@ -26,6 +26,10 @@ $
 Then apply one constraint (in the constraints folder) at a time and test the admission control enforcement.
 
 
+## TBD
+
+Calico Policy attributes enforcement
+Calico Policy order constraints for different users
 
  
 ## References
